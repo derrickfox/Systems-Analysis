@@ -28,32 +28,32 @@ Below is the placement of PageInfo inside the page specification:
 
 ###Properties:
 1.  <a href="#disabled">disabled</a> : Boolean
-2.  <a href="#disabled">Height</a> : text
-3.  <a href="#disabled">Theme</a> : text
-4.  <a href="#disabled">disabled</a> pageTitle : array of objects.  
-    1. <a href="#disabled">disabled</a> showPageTitle : Boolean
-    2. <a href="#disabled">disabled</a> title : text
-    3. <a href="#disabled">disabled</a> position : text
-    4. <a href="#disabled">disabled</a> fontStyle : Choice
+2.  <a href="#Height">Height</a> : text
+3.  <a href="#Theme">Theme</a> : text
+4.  <a href="#pageTitle">pageTitle</a> : array of objects.  
+    1. <a href="#showPageTitle">showPageTitle</a> : Boolean
+    2. <a href="#title">title</a> : text
+    3. <a href="#position">position</a> : text
+    4. <a href="#fontStyle">fontStyle</a> : Choice
         1. choices : array
-    6. <a href="#disabled">disabled</a> fontSize : Choice
+    6. <a href="#fontSize">fontSize</a> : Choice
         1. choices : array
-    8. <a href="#disabled">disabled</a> fontColor : color
-    9. <a href="#disabled">disabled</a> customImage : File
-5.  <a href="#disabled">disabled</a> BreadCrumb : array of objects.
-    1. <a href="#disabled">disabled</a> Enable : Boolean
-    2. <a href="#disabled">disabled</a> showBreadcrumbInhomePage : Boolean
-        1. <a href="#disabled">disabled</a> fontSize : Choice
+    8. <a href="#fontColor">fontColor</a> : color
+    9. <a href="#customImage">customImage</a> : File
+5.  <a href="#BreadCrumb">BreadCrumb</a> : array of objects.
+    1. <a href="#Enable">Enable</a> : Boolean
+    2. <a href="#showBreadcrumbInhomePage">showBreadcrumbInhomePage</a> : Boolean
+        1. <a href="#fontSize">fontSize</a> : Choice
             1. choices : array
-    3. <a href="#disabled">disabled</a> pageInfoBottom : Boolean
-6.  <a href="#disabled">disabled</a> siteSearch : array of objects.
-    1. <a href="#disabled">disabled</a> PlaceHolder : text
-    2. <a href="#disabled">disabled</a> Enable : Boolean
-    3. <a href="#disabled">disabled</a> Height : Number
-    4. <a href="#disabled">disabled</a> Width : Number
-7.  <a href="#disabled">disabled</a> toolbar
-    1. <a href="#disabled">disabled</a> Enable : Boolean
-    2. <a href="#disabled">disabled</a> ToolbarList : array of objects.
+    3. <a href="#pageInfoBottom">pageInfoBottom</a> : Boolean
+6.  <a href="#siteSearch">siteSearch</a> : array of objects.
+    1. <a href="#PlaceHolder">PlaceHolder</a> : text
+    2. <a href="#Enable">Enable</a> : Boolean
+    3. <a href="#Height">Height</a> : Number
+    4. <a href="#Width">Width</a> : Number
+7.  <a href="#toolbar">toolbar</a>
+    1. <a href="#Enable">Enable</a> : Boolean
+    2. <a href="#ToolbarList">ToolbarList</a> : array of objects.
         1. “Cancel”: Take user back to the previous UI state.
         2. “Save”: Broadcasts event ‘submit’.
         3. “Save as Draft”: Broadcasts event ‘draft’.
@@ -68,9 +68,9 @@ Below is the placement of PageInfo inside the page specification:
         12. “Assign”: Opens up the assign to form.
         13. “Approve”: Broadcasts event ‘approve’.
         14. “Reject” : Broadcasts event ‘reject’.
-8.  <a href="#disabled">disabled</a> actionBar
-    1. <a href="#disabled">disabled</a> Enable : Boolean
-    2. <a href="#disabled">disabled</a> actionList : array of objects.
+8.  <a href="#actionBar">actionBar</a>
+    1. <a href="#Enable">Enable</a> : Boolean
+    2. <a href="#actionList">actionList</a> : array of objects.
         1. button 1 : configurable button with configurable action.
         2. button 2 : configurable button with configurable action.
         3. button 3 : configurable button with configurable action.
