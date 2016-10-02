@@ -159,7 +159,7 @@ Below is the placement of PageInfo inside the page specification:
       Description: Image URL Text No</dd>
 </dl>
 
-<dl>
+<dl id="disable">
   <dt>disabled</dt>
   <dd>Type: "boolean" </br>
       Description: Used to disable / Enable PageInfo</dd>
