@@ -1,7 +1,3 @@
-<h2 id="top">Top of page!</h2>
-<a href="#actionBar">Action Bar Def</a>
-
-
 #Page Info Configuration Document:
 
 The “PageInfo” specification is part of the “page” specification defined in the facility/settings for each facility. PageInfo specification is made up of Title, Toolbar, BreadCrumb, Site Search and Action Bar.
@@ -76,8 +72,6 @@ Below is the placement of PageInfo inside the page specification:
         3. button 3 : configurable button with configurable action.
         4. button 4 : configurable button with configurable action.
 
-
-<a href="#top">Go to top</a>
 
 ##Dictonary of Terms
 
