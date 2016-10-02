@@ -27,7 +27,7 @@ Below is the placement of PageInfo inside the page specification:
       },   
 
 ###Properties:
-1.  disabled : Boolean
+1.  <a href="#disabled">disabled</a> : Boolean
 2.  Height : text
 3.  Theme : text
 4.  pageTitle : array of objects.  
