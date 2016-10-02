@@ -28,32 +28,32 @@ Below is the placement of PageInfo inside the page specification:
 
 ###Properties:
 1.  <a href="#disabled">disabled</a> : Boolean
-2.  Height : text
-3.  Theme : text
-4.  pageTitle : array of objects.  
-    1. showPageTitle : Boolean
-    2. title : text
-    3. position : text
-    4. fontStyle : Choice
+2.  <a href="#disabled">Height</a> : text
+3.  <a href="#disabled">Theme</a> : text
+4.  <a href="#disabled">disabled</a> pageTitle : array of objects.  
+    1. <a href="#disabled">disabled</a> showPageTitle : Boolean
+    2. <a href="#disabled">disabled</a> title : text
+    3. <a href="#disabled">disabled</a> position : text
+    4. <a href="#disabled">disabled</a> fontStyle : Choice
         1. choices : array
-    6. fontSize : Choice
+    6. <a href="#disabled">disabled</a> fontSize : Choice
         1. choices : array
-    8. fontColor : color
-    9. customImage : File
-5.  BreadCrumb : array of objects.
-    1. Enable : Boolean
-    2. showBreadcrumbInhomePage : Boolean
-        1. fontSize : Choice
+    8. <a href="#disabled">disabled</a> fontColor : color
+    9. <a href="#disabled">disabled</a> customImage : File
+5.  <a href="#disabled">disabled</a> BreadCrumb : array of objects.
+    1. <a href="#disabled">disabled</a> Enable : Boolean
+    2. <a href="#disabled">disabled</a> showBreadcrumbInhomePage : Boolean
+        1. <a href="#disabled">disabled</a> fontSize : Choice
             1. choices : array
-    3. pageInfoBottom : Boolean
-6.  siteSearch : array of objects.
-    1. PlaceHolder : text
-    2. Enable : Boolean
-    3. Height : Number
-    4. Width : Number
-7.  toolbar
-    1. Enable : Boolean
-    2. ToolbarList : array of objects.
+    3. <a href="#disabled">disabled</a> pageInfoBottom : Boolean
+6.  <a href="#disabled">disabled</a> siteSearch : array of objects.
+    1. <a href="#disabled">disabled</a> PlaceHolder : text
+    2. <a href="#disabled">disabled</a> Enable : Boolean
+    3. <a href="#disabled">disabled</a> Height : Number
+    4. <a href="#disabled">disabled</a> Width : Number
+7.  <a href="#disabled">disabled</a> toolbar
+    1. <a href="#disabled">disabled</a> Enable : Boolean
+    2. <a href="#disabled">disabled</a> ToolbarList : array of objects.
         1. “Cancel”: Take user back to the previous UI state.
         2. “Save”: Broadcasts event ‘submit’.
         3. “Save as Draft”: Broadcasts event ‘draft’.
@@ -68,9 +68,9 @@ Below is the placement of PageInfo inside the page specification:
         12. “Assign”: Opens up the assign to form.
         13. “Approve”: Broadcasts event ‘approve’.
         14. “Reject” : Broadcasts event ‘reject’.
-8.  actionBar
-    1. Enable : Boolean
-    2. actionList : array of objects.
+8.  <a href="#disabled">disabled</a> actionBar
+    1. <a href="#disabled">disabled</a> Enable : Boolean
+    2. <a href="#disabled">disabled</a> actionList : array of objects.
         1. button 1 : configurable button with configurable action.
         2. button 2 : configurable button with configurable action.
         3. button 3 : configurable button with configurable action.
@@ -87,7 +87,7 @@ Below is the placement of PageInfo inside the page specification:
       Description: Is used for NCATLYST mobile app only. Activates the action bar icon, back button icon & action bar menu.</dd>
 </dl>
 
-<dl>
+<dl id="actionList">
   <dt>actionList</dt>
   <dd>Type: "array of objects" </br>
       Description: An array of objects. Each object represents an action icon button in the action menu. Each object has properties Name, Icon, styles and Trigger. The only configurable properties are Icon & styles. You can specify a font awesome icon class in the Icon property or you can specify an background image path in the styles property.
@@ -114,7 +114,7 @@ Below is the placement of PageInfo inside the page specification:
       </dd>
 </dl>
 
-<dl>
+<dl id="BreadCrumb">
   <dt>BreadCrumb</dt>
   <dd>Type: "array of objects" </br>
       Description: Each objects has the properties <b>required</b> label and value.
@@ -153,7 +153,7 @@ Below is the placement of PageInfo inside the page specification:
       </dd>
 </dl>
 
-<dl>
+<dl id="customImage">
   <dt>customImage</dt>
   <dd>Type: "File" </br>
       Description: Image URL Text No</dd>
@@ -165,25 +165,25 @@ Below is the placement of PageInfo inside the page specification:
       Description: Used to disable / Enable PageInfo</dd>
 </dl>
 
-<dl>
+<dl id="fontColor">
   <dt>fontColor</dt>
   <dd>Type: "Choice" </br>
       Description: Any value applicable to color CSS property e.g “white”. Should be left blank if Theme is being used. Text No</dd>
 </dl>
 
-<dl>
+<dl id="fontSize">
   <dt>fontSize</dt>
   <dd>Type: "Choice" </br>
       Description: Any value applicable to font-size CSS property e.g “16px” Text No</dd>
 </dl>
 
-<dl>
+<dl id="fontStyle">
   <dt>fontStyle</dt>
   <dd>Type: "Choice" </br>
       Description: Any value applicable to font-style CSS property e.g “italics” Text No</dd>
 </dl>
 
-<dl>
+<dl id="Height">
   <dt>Height</dt>
   <dd>Type: “string”
       </br>
@@ -195,7 +195,7 @@ Below is the placement of PageInfo inside the page specification:
       </dd>
 </dl>
 
-<dl>
+<dl id="pageTitle">
   <dt>pageTitle</dt>
   <dd>Type: “array”
       </br>
@@ -253,21 +253,21 @@ Below is the placement of PageInfo inside the page specification:
       </dd>
 </dl>
 
-<dl>
+<dl id="pageInfoBottom">
   <dt>pageInfoBottom</dt>
   <dd>Type: “boolean”
       </br>
       Description: This is used for controlling breadcrumb to show on pageInfo bottom panel</dd>
 </dl>
 
-<dl>
+<dl id="pageInfoTop">
   <dt>pageInfoTop</dt>
   <dd>Type: “boolean”
       </br>
       Description: This is used for controlling breadcrumb to show on pageInfo top panel</dd>
 </dl>
 
-<dl>
+<dl id="position">
   <dt>position</dt>
   <dd>Type: “string”
       </br>
@@ -280,21 +280,21 @@ Below is the placement of PageInfo inside the page specification:
       </dd>
 </dl>
 
-<dl>
+<dl id="showPageTitle">
   <dt>showPageTitle</dt>
   <dd>Type: “boolean”
       </br>
      Description: For controlling pageTitle Boolean Yes</dd>
 </dl>
 
-<dl>
+<dl id="title">
   <dt>title</dt>
   <dd>Type: “string”
       </br>
      Description: Title of the page Text No/dd>
 </dl>
 
-<dl>
+<dl id="ToolbarList">
   <dt>ToolbarList</dt>
   <dd>Type: “array of objects”
       </br>
@@ -334,7 +334,7 @@ Below is the placement of PageInfo inside the page specification:
      </dd>
 </dl>
 
-<dl>
+<dl id="Theme">
   <dt>Theme</dt>
   <dd>Type: “string”
       </br>
